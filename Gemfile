@@ -21,9 +21,11 @@ end
 group :development do
   gem 'listen', '~> 3.3'
   gem 'spring'
+  gem "spring-commands-rspec", "~> 1.0"
 end
 
 group :test do
   gem "shoulda-matchers", "~> 4.5"
 end
+
 
